@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.nav-menu a,
+.icon-wrp a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 500;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-menu a:hover {
+    color: rgb(216, 185, 6);
+}
+
+.socials-wrp a {
+    font-size: 22px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: 500;
+}
+
+.socials-wrp a.icon-1 {
+    color: #3B5998;
+}
+
+.socials-wrp a.icon-2 {
+    color: #3B5998;
+}
+
+.socials-wrp a.icon-3 {
+    color: #66B3F4;
+}
+
+.socials-wrp a.icon-4 {
+    color: #FF0000;
+}
+
+.socials-wrp a.icon-5 {
+    color: #34A853;
+}
+
+
+.btn-wrap a {
+    text-decoration: none;
+    display: inline-flex;
+    background-color: #027A54;
+    color: white;
+    min-height: 43px;
+    min-width: 140px;
+    justify-content: center;
+    outline: none;
+    align-items: center;
+    border-radius: 99px;
+    margin: 0;
+    padding: 0 24px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+/* -----------------------------------------------------------------------------------------------------------s3 */
+.section-p1s3 {
+    background: rgb(242, 242, 242);
+    background: linear-gradient(90deg, rgba(242, 242, 242, 1) 50%,
+            rgba(0, 122, 92, 1) 50%);
+}
+
+.elem-p1s3-g2 {
+    padding-right: 50px;
+}
+
+.elem-p1s3-g2 img {
+    height: 400px;
+}
+
+.elem-p1s3-z1 {
+    padding-left: 50px;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------s1 */
+.section-p2s1 .elem-p1s3-g2 img {
+    height: 800px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------s5 */
+.img-x1 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+}
+
+.content-x1 {
+    min-height: 560px;
+}
+
+/* ------------------------------------------------------------------------------------------------footer*/
+.input-wrap input {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 60px;
+    padding: 10px 20px;
+    border: 0;
+}
+
+.submit-wrap button {
+    height: 60px;
+    padding: 10px 23px;
+    background-color: #027A54;
+    color: gold;
+}
+
+.footer-social a {
+    margin-right: 10px;
+    color: white;
+}
+
+.footer-title ul li a {
+    text-decoration: none;
+    color: burlywood;
+}
+
+.footer-p1f1 p {
+    color: burlywood;
+}
